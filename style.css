@@ -1,0 +1,80 @@
+*{
+    padding:0em;
+    margin: 0em;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("bio.jpg");
+    background-size: cover;
+
+   
+    font-family: sans-serif;
+}
+.nav-bar{
+    background-color: green;
+    text-align: center;
+    
+}
+.nav-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.nav-bar ul li{
+    widows: 120px;
+    margin: 15px;
+    padding: 15px;
+
+}
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+li :hover{
+    background-color: #2bab0d;
+    border-radius: 3px;
+}
+ul :hover{
+    background-color: #2bab0d;
+    border-radius: 3px;
+}
+.h :hover{
+    background-color: #2bab0d;
+    border-radius: 3px;
+}
+.pf{
+    background-color: #2bab0d;
+    border-radius: 3px;
+}
+.ph{
+    background-color: #2bab0d;
+    border-radius: 3px;
+}
+.pb{
+    background-color: #2bab0d;
+    border-radius: 3px;
+}
+
+
+
+.nav-bar .fa{
+    margin-right: 8px;
+}
+.m{
+    display: none;
+
+}
+ .nav-bar ul li:hover .m{
+    display: block;
+    position: absolute;
+    background-color: green;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.nav-bar ul li:hover .m ul{
+    display: block;
+    margin: 10px;
+}
+

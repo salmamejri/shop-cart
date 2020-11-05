@@ -1,0 +1,53 @@
+
+
+.body{
+    background-color: #D7F5AB ;
+}
+.nav-bar{
+    border: 15px;
+    background-color: green;
+}
+ul li a {
+    color: white;
+}
+.cart{
+    margin: 40px ;
+}
+.img1{
+    width: 4em;
+    height: 8em;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    border: 5em;
+    background-color: white;
+   
+    
+}
+.produit
+{
+    margin:15px;
+}
+.es-cart{
+    background-color: white;
+}
+.icon{
+    background-position: center;
+    margin-left: 1em;
+}
+.icon1{
+    background-position: center;
+    margin-left: 2em;
+}
+.icon2{
+    color: red;
+}
+.red{
+    color: red;
+}
+#title{
+    padding-top: 5em;
+    padding-left: 20em;
+}
